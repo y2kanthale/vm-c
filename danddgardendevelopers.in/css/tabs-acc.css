@@ -1,0 +1,59 @@
+
+/* root element for accordion. decorated with rounded borders and gradient background image */
+#accordion {
+	background:#fff;
+
+	border:1px solid #bebebe;	
+	-background:#fff;
+}
+
+/* accordion header */
+#accordion h2 {
+	
+	margin:0;
+	padding:5px 15px;
+	font-size:14px;
+	font-weight:normal;
+	border:1px solid #fff;
+	border-bottom:1px solid #ddd;
+	cursor:pointer;		
+	
+	text-align:left;
+	padding-left:50px;
+	font-family:Euphemia;
+	background:#d9d9d9;
+	color:black;
+	font-size:20px;
+
+
+	
+	
+}
+
+/* currently active header */
+#accordion h2.current {
+	cursor: default;
+background-color: #5C1010;
+color:  #5C1010;
+	background:url(../images/acco_arrow.png) no-repeat center left;
+}
+
+/* accordion pane */
+#accordion .pane {
+	border:1px solid #fff;
+	border-width:0 2px;
+	display:none;
+	height:180px;
+	padding:15px;
+	color:#000;
+	font-size:12px;
+	font-family:Euphemia;
+}
+
+/* a title inside pane */
+#accordion .pane h3 {
+	font-weight:normal;
+	margin:0 0 -5px 0;
+	font-size:16px;
+	color: #61060f;
+}
